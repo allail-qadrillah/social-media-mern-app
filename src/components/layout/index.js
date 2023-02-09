@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Outlet, useLocation, useNavigate } from 'react-router-dom'
-import { LOGIN } from '../../lib/routes'
+import { LOGIN } from 'lib/routes'
 
 export default function Layout() {
   const { pathname } = useLocation()

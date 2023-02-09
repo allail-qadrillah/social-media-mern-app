@@ -1,5 +1,5 @@
 import { Box, Center, Heading, FormControl, Input, FormLabel, FormErrorMessage, Button, Link, Text } from "@chakra-ui/react";
-import { REGISTER } from "../../lib/routes";
+import { REGISTER } from "lib/routes";
 import { Link as RouterLink } from "react-router-dom";
 
 export default function Login() {

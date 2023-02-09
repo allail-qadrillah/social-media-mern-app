@@ -1,6 +1,6 @@
-import Login from "../components/auth/Login";
-import Register from "../components/auth/Register";
-import Layout from "../components/layout/index";
+import Login from "components/auth/Login";
+import Register from "components/auth/Register";
+import Layout from "components/layout/index";
 import { createBrowserRouter } from "react-router-dom";
 
 export const ROOT = '/'
