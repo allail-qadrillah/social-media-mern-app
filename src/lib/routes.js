@@ -9,6 +9,8 @@ export const REGISTER = '/register'
 
 export const PROTECTED = '/protected'
 export const DASHBOARD = `${PROTECTED}/dashboard`
+export const USERS = `${PROTECTED}/users`
+export const PROFILE = `${PROTECTED}/profile/:id`
 
 export const router = createBrowserRouter([
   { path: ROOT, element: 'ROOT' },
@@ -18,5 +20,7 @@ export const router = createBrowserRouter([
     element: <Layout />, 
     children:[
       { path: DASHBOARD, element: 'DASHBOARD' },
+      { path: USERS, element: 'USERS' },
+      { path: PROFILE, element: 'PROFILE' },
     ]},
 ])

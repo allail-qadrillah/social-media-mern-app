@@ -9,7 +9,7 @@ import { doc, getDoc, setDoc } from 'firebase/firestore'
 import isUsernameExists from 'utils/isUsernameExists'
 
 export function useAuth() {
-  const [authUser, authLoading, error] = useAuthState(auth)
+  const [ authUser, authLoading, error ] = useAuthState(auth)
   const [ isLoading, setLoading ] = useState(true)
   const [ user, setUser ] = useState(null)
 
